@@ -5,7 +5,8 @@ import { render } from "react-dom";
 // import NavigationNavs from "./NavigationNavs.jsx";
 // import NavigationNavbars from "./NavigationNavbars.jsx";
 // import NavigationBreadcrumbs from "./NavigationBreadcrumbs.jsx";
-import NavigationTabs from "./NavigationTabs.jsx";
+// import NavigationTabs from "./NavigationTabs.jsx";
+import NavigationPager from "./NavigationPager.jsx";
 
 render (
   // <Buttons />,
@@ -13,6 +14,7 @@ render (
   // <NavigationNavs />,
   // <NavigationNavbars />,
   // <NavigationBreadcrumbs />,
-  <NavigationTabs />,
+  // <NavigationTabs />,
+  <NavigationPager />,
   document.getElementById("app")
 );
