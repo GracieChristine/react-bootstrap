@@ -1,8 +1,8 @@
 import React from "react";
 import { render } from "react-dom";
-import Clearfixs from "./PageLayout/Clearfixs.jsx";
+import ListGroups from "./PageLayout/ListGroups.jsx";
 
 render (
-  <Clearfixs />,
+  <ListGroups />,
   document.getElementById("app")
 );
