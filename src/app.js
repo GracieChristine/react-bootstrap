@@ -1,8 +1,8 @@
 import React from "react";
 import { render } from "react-dom";
-import ListGroups from "./PageLayout/ListGroups.jsx";
+import Tables from "./PageLayout/Tables.jsx";
 
 render (
-  <ListGroups />,
+  <Tables />,
   document.getElementById("app")
 );
