@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {Breadcrumb} from "react-bootstrap";
 
-class NavigationBreadcrumbs extends Component {
+class Breadcrumbs extends Component {
   render() {
     return (
       <div>
@@ -21,4 +21,4 @@ class NavigationBreadcrumbs extends Component {
   }
 }
 
-export default NavigationBreadcrumbs;
+export default Breadcrumbs;

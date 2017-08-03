@@ -10,7 +10,7 @@ import {
   Button
 } from "react-bootstrap";
 
-class NavigationNavbars extends Component {
+class Navbars extends Component {
   render() {
     return (
       <div>
@@ -102,4 +102,4 @@ class NavigationNavbars extends Component {
   }
 }
 
-export default NavigationNavbars;
+export default Navbars;

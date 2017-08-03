@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {Pager} from "react-bootstrap";
 
-class NavigationPager extends Component {
+class Pagers extends Component {
 
   render() {
     return (
@@ -28,4 +28,4 @@ class NavigationPager extends Component {
   }
 }
 
-export default NavigationPager;
+export default Pagers;

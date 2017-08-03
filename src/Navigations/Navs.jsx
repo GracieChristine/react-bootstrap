@@ -10,7 +10,7 @@ function handleSelect2(eventKey) {
   alert(`selected ${eventKey}`);
 }
 
-class NavigationNavs extends Component {
+class Navs extends Component {
   render() {
     return (
       <div>
@@ -58,4 +58,4 @@ class NavigationNavs extends Component {
   }
 }
 
-export default NavigationNavs;
+export default Navs;
