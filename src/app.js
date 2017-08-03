@@ -1,8 +1,8 @@
 import React from "react";
 import { render } from "react-dom";
-import Grids from "./PageLayout/Grid.jsx";
+import Clearfixs from "./PageLayout/Clearfixs.jsx";
 
 render (
-  <Grids />,
+  <Clearfixs />,
   document.getElementById("app")
 );
