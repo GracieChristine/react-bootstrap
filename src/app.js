@@ -1,8 +1,8 @@
 import React from "react";
 import { render } from "react-dom";
-import Controls from "./Forms/Controls.jsx";
+import Inputs from "./Forms/Inputs.jsx";
 
 render (
-  <Controls />,
+  <Inputs />,
   document.getElementById("app")
 );
