@@ -1,8 +1,8 @@
 import React from "react";
 import { render } from "react-dom";
-import Labels from "./Miscellaneous/Labels.jsx";
+import Badges from "./Miscellaneous/Badges.jsx";
 
 render (
-  <Labels />,
+  <Badges />,
   document.getElementById("app")
 );
