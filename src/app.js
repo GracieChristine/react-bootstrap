@@ -1,8 +1,8 @@
 import React from "react";
 import { render } from "react-dom";
-import Glyphicons from "./Miscellaneous/Glyphicons.jsx";
+import Labels from "./Miscellaneous/Labels.jsx";
 
 render (
-  <Glyphicons />,
+  <Labels />,
   document.getElementById("app")
 );
