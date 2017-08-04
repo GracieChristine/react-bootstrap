@@ -1,8 +1,8 @@
 import React from "react";
 import { render } from "react-dom";
-import Wells from "./PageLayout/Wells.jsx";
+import Layouts from "./Forms/Layouts.jsx";
 
 render (
-  <Wells />,
+  <Layouts />,
   document.getElementById("app")
 );
