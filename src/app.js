@@ -1,8 +1,8 @@
 import React from "react";
 import { render } from "react-dom";
-import Transitions from "./Utilities/Transitions.jsx";
+import Fades from "./Utilities/Fades.jsx";
 
 render (
-  <Transitions />,
+  <Fades />,
   document.getElementById("app")
 );
