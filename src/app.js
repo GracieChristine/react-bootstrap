@@ -1,8 +1,8 @@
 import React from "react";
 import { render } from "react-dom";
-import Inputs from "./Forms/Inputs.jsx";
+import Validations from "./Forms/Validations.jsx";
 
 render (
-  <Inputs />,
+  <Validations />,
   document.getElementById("app")
 );
