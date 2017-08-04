@@ -1,8 +1,8 @@
 import React from "react";
 import { render } from "react-dom";
-import ProgressBars from "./Miscellaneous/ProgressBars.jsx";
+import Transitions from "./Utilities/Transitions.jsx";
 
 render (
-  <ProgressBars />,
+  <Transitions />,
   document.getElementById("app")
 );
