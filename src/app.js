@@ -1,8 +1,8 @@
 import React from "react";
 import { render } from "react-dom";
-import MediaObjects from "./MediaContent/MediaObjects.jsx";
+import Glyphicons from "./Miscellaneous/Glyphicons.jsx";
 
 render (
-  <MediaObjects />,
+  <Glyphicons />,
   document.getElementById("app")
 );
