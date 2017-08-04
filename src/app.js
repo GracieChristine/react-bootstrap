@@ -1,8 +1,8 @@
 import React from "react";
 import { render } from "react-dom";
-import Layouts from "./Forms/Layouts.jsx";
+import Controls from "./Forms/Controls.jsx";
 
 render (
-  <Layouts />,
+  <Controls />,
   document.getElementById("app")
 );
