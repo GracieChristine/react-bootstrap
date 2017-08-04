@@ -1,8 +1,8 @@
 import React from "react";
 import { render } from "react-dom";
-import Tables from "./PageLayout/Tables.jsx";
+import Panels from "./PageLayout/Panels.jsx";
 
 render (
-  <Tables />,
+  <Panels />,
   document.getElementById("app")
 );
