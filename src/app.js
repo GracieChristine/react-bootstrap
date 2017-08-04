@@ -1,8 +1,8 @@
 import React from "react";
 import { render } from "react-dom";
-import Thumbnails from "./MediaContent/Thumbnails.jsx";
+import Carousels from "./MediaContent/Carousels.jsx";
 
 render (
-  <Thumbnails />,
+  <Carousels />,
   document.getElementById("app")
 );
