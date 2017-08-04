@@ -1,8 +1,8 @@
 import React from "react";
 import { render } from "react-dom";
-import Panels from "./PageLayout/Panels.jsx";
+import Wells from "./PageLayout/Wells.jsx";
 
 render (
-  <Panels />,
+  <Wells />,
   document.getElementById("app")
 );
