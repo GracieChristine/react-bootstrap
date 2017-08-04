@@ -1,8 +1,8 @@
 import React from "react";
 import { render } from "react-dom";
-import Alerts from "./Miscellaneous/Alerts.jsx";
+import ProgressBars from "./Miscellaneous/ProgressBars.jsx";
 
 render (
-  <Alerts />,
+  <ProgressBars />,
   document.getElementById("app")
 );
