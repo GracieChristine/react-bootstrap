@@ -1,8 +1,8 @@
 import React from "react";
 import { render } from "react-dom";
-import Images from "./MediaContent/Images.jsx";
+import Thumbnails from "./MediaContent/Thumbnails.jsx";
 
 render (
-  <Images />,
+  <Thumbnails />,
   document.getElementById("app")
 );
